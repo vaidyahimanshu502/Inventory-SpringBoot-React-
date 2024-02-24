@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.items-container {
+  margin: auto;
+}
+
+/* .admin-icon {
+  float: right;
+  font-size: 24px !important;
+} */
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.action {
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  border-right: 3px solid gray !important;
+}
